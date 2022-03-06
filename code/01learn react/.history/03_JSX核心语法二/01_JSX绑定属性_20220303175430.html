@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div id="app"></div>
+<script src="../react/react.development.js"></script>
+<script src="../react/react-dom.development.js"></script>
+<script src="../react/babel.min.js"></script>
+<script type="text/babel">
+    function getSizeImage(imgUrl,size) {
+    return imgUrl + `?params=${size}y${size}`
+    }
+    class App extends React.Component {
+        constructor() {
+            super()
+            this.state = {
+                title: '冰冰',
+                link:'http://www.baidu.com',
+                imgUrl: 'https://p2.music.126.net/tbR3FNCOIpqtwC_M4NNwnQ==/109951166578963138.jpg',
+                active:true
+            }
+        }
+
+        render() {
+            const {title, imgUrl,link,active} = this.state
+            return (
+                <div>
+                    <h2 title={title}>冰冰</h2>
+                    <a href={link} target="_blank">百度</a>
+                    {/*js中for标签作用是循环,所以此处用htmlFor*/}
+                    <label htmlFor="age">标签</label>
+                    {/*class为关键字 Warning: Invalid DOM property `class`. Did you mean `className`?*/}
+                    {/* <div class="box title">div元素</div>*/}
+                    <div className="box title">div元素</div>
+                    <div className={"box title"+(active?" active":"")}>div元素</div>
+                    <div className={"box title"+(!active?" active":"")}>div元素</div>
+                    <img src={getSizeImage(imgUrl,100)} alt="" />
+
+                    {/**绑定nei/}
+                </div>
+            )
+        }
+
+        getFullName() {
+            return this.state.firstname + this.state.lastname
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById('app'))
+</script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div table {
+        }
+
+        thead tr th {
+            margin-right: 1px;
+            background-color: rgb(204, 204, 204);
+            height: 40px;
+            line-height: 40px;
+            padding: 0 10px;
+        }
+
+        tbody tr {
+            height: 35px;
+            line-height: 35px;
+        }
+
+        tbody tr td:nth-child(1) {
+            border-left: 1px solid darkgray;
+        }
+
+        tbody tr td {
+            text-align: center;
+            border-right: 1px solid darkgray;
+            border-bottom: 1px solid darkgray;
+            collapse: true;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app"></div>
+<script src="../react/react.development.js"></script>
+<script src="../react/react-dom.development.js"></script>
+<script src="../react/babel.min.js"></script>
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super()
+            this.state = {
+                books: [
+                    {
+                        id: 1,
+                        name: '《算法导论》',
+                        date: '2006-9',
+                        price: 85.00,
+                        count: 2
+                    },
+                    {
+                        id: 2,
+                        name: '《UNIX编程艺术》',
+                        date: '2006-2',
+                        price: 59.00,
+                        count: 1
+                    },
+                    {
+                        id: 3,
+                        name: '《编程珠玑》',
+                        date: '2008-10',
+                        price: 39.00,
+                        count: 1
+                    },
+                    {
+                        id: 4,
+                        name: '《代码大全》',
+                        date: '2006-3',
+                        price: 128.00,
+                        count: 1
+                    },
+                ]
+            }
+        }
+
+        renderBooks() {
+            return (
+                <div>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>书籍名称</th>
+                            <th>出版日期</th>
+                            <th>价格</th>
+                            <th>购买数量</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {
+                            this.state.books.map((item, index) => {
+                                return (<tr>
+                                    <td>{item.id}</td>
+                                    <td>{item.name}</td>
+                                    <td>{item.date}</td>
+                                    <td>{item.price}</td>
+                                    <td>
+                                        <button onClick={() => {
+                                            this.changebookCount(index, 1)
+                                        }}>-
+                                        </button>
+                                        {item.count}
+                                        <button onClick={() => {
+                                            this.changebookCount(index, -1)
+                                        }}>+
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button onClick={()=>this.removeBook(index)}>移除</button>
+                                    </td>
+                                </tr>)
+                            })
+                        }
+                        </tbody>
+                    </table>
+                    <h1>总价格:{this.getTotalPrice()}</h1>
+                </div>
+            )
+        }
+
+        render(){
+           return this.state.books.length?this.renderBooks():this.emptyTip
+        }
+        getTotalPrice() {
+            let money= this.state.books.reduce((acc, cur) => {
+                return acc + cur.price * cur.count
+            }, 0)
+            return this.formatMoney(money)
+        }
+
+        changebookCount(index, changeCount) {
+            let newbooks = [...this.state.books]
+            newbooks[index].count += changeCount
+            this.setState({
+                books: newbooks
+            })
+        }
+
+        removeBook(index){
+             let newbooks = [...this.state.books]
+             newbooks.splice(index,1)
+             this.setState({
+             books: newbooks
+             })
+        }
+
+        formatMoney(money){
+            // if(typeof money!=='number'){
+            //     money=Number(money)
+            // }
+            return '￥'+money.toFixed(2)`
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById('app'))
+</script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="../react/react.development.js"></script>
+    <script src="../react/react-dom.development.js"></script>
+    <script src="../react/babel.min.js"></script>
+    <script type="text/babel">
+        class App extends React.Component {
+        constructor() {
+            super()
+            this.state = {
+                // 1:可以正常直接显示的类型 字符串 数字 数组
+                firstname:'冰冰',
+                lastname:'王',
+                age:31,
+                arr:[1,2,3],
+                friend:{
+                    name:'冰冰',
+                    age:32
+                } 
+
+            }
+        }
+
+        render() {
+            const {firstname,lastname}=this.state
+            return (
+                <div>
+                    <h2>{this.state.name}</h2>
+                    <h2>{this.state.age}</h2>
+                    <h2>{this.state.arr}</h2>
+                    <h2>{this.state.a}</h2>
+                    <h2>{this.state.a+''}</h2>
+                    <h2>{this.state.b.toString()}</h2>
+                    <h2>{this.state.c}</h2>
+                    <h2>{this.state.flag?'true':'false'}</h2>
+                    <h2>{this.state.flag&&'true'}</h2>
+                    {/* error: 不能直接显示对象 Objects are not valid as a React child*/}
+                    {/* <h2>{this.state.friend}</h2> */}
+                </div>
+            )
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById('app'))
+</script>
+</body>
+
+</html>

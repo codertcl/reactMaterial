@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    ////1:ES5创建类
+    // function Person(name, age) {
+    //     this.name = name;
+    //     this.age = age
+    // }
+    //
+    // Person.prototype.running = function () {
+    //     console.log(this.name, this.age, 'running')
+    // }
+    //
+    // let p = new Person('冰冰',32)
+    // console.log(p.name, p.age)
+    // p.running()
+
+    //2:ES6使用class创建类
+    class Person {
+        constructor(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        running() {
+            console.log(this)
+            console.log(this.name, this.age, 'running')
+        }
+    }
+
+    const p = new Person('冰冰', 32)
+    p.running()
+
+    // //this绑定
+    let func = p.running
+    // func() //undefined error
+
+    var obj = {
+        name: '饼饼',
+        age: 1
+    }
+
+    //{name: '饼饼', age: 1}  饼饼 1 running
+    // func.call(obj)
+
+
+    ////{name: '饼饼', age: 1}  饼饼 1 running
+    func = func.bind(obj)
+    func()
+</script>
+</body>
+</html>

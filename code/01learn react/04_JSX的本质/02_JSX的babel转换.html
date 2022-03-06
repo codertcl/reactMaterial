@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div id="app"></div>
+<script src="../react/react.development.js"></script>
+<script src="../react/react-dom.development.js"></script>
+<script src="../react/babel.min.js"></script>
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super()
+            this.state = {}
+        }
+
+
+        render() {
+            return (
+                <div>
+                    <div className='header'>
+                        <h2 title='标题'>标题</h2>
+                    </div>
+                    <div className='content'>
+                        <h2 title='标题'>内容</h2>
+                        <button>按钮</button>
+                        <a href="http://www.baidu.com">百度一下</a>
+                    </div>
+                    <div className='footer'>
+                        <h2 title='footer'>footer</h2>
+                    </div>
+                </div>
+            )
+        }
+    }
+
+    React.createElement("div", null, React.createElement("div", {
+        className: "header"
+    }, React.createElement("h2", {
+        title: "\u6807\u9898"
+    }, "\u6807\u9898")), React.createElement("div", {
+        className: "content"
+    }, React.createElement("h2", {
+        title: "\u6807\u9898"
+    }, "\u5185\u5BB9"), React.createElement("button", null, "\u6309\u94AE"), React.createElement("a", {
+        href: "http://www.baidu.com"
+    }, "\u767E\u5EA6\u4E00\u4E0B")), React.createElement("div", {
+        className: "footer"
+    }, React.createElement("h2", {
+        title: "footer"
+    }, "footer")));
+    ReactDOM.render(<App/>, document.getElementById('app'))
+</script>
+</body>
+
+</html>
+

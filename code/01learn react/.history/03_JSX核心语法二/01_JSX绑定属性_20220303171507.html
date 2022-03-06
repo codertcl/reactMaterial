@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script src="../react/react.development.js"></script>
+    <script src="../react/react-dom.development.js"></script>
+    <script src="../react/babel.min.js"></script>
+    <script type="text/babel">
+        class App extends React.Component {
+        constructor() {
+            super()
+            this.state = {
+                // 1:可以正常直接显示的类型 字符串 数字 数组
+                firstname:'王',
+                lastname:'冰冰',
+                flag:true,
+                friend:{
+                    name:'冰冰',
+                    age:32,
+                    title:'冰冰',
+                    imgUrl:'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13275175642%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648890891&t=7e8341ee74f1c905e9ecbdff090754c4',
+                    
+                } 
+
+            }
+        }
+
+        render() {
+            const {firstname,lastname,flag}=this.state
+            return (
+                <div>
+                  <h2 title={this.state.title}>冰冰</h2>
+                  <img src="" alt="" />
+                </div>
+            )
+        }
+
+        getFullName(){
+            return this.state.firstname+this.state.lastname
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById('app'))
+</script>
+</body>
+
+</html>
