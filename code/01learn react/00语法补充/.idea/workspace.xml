@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1b6ee61-cb36-4691-8aba-0083ac6ec5cf" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_模板字符串.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_JavaScript的纯函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06监听hash改变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07监听history改变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094710.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094712.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094717.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094718.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094727.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094732.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094733.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094734.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094735.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094739.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094740.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094742.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094744.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094746.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094749.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094751.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094753.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094754.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094756.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094801.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094803.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094806.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094810.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094819.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094822.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094834.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094841.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094848.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094849.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094851.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094852.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094853.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094855.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094943.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094944.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094945.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094946.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094949.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094950.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094951.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094953.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094954.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307094958.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095043.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095045.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095046.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095047.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095048.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095050.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095054.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095055.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095057.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095101.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095111.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095114.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095120.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095123.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095124.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095127.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095132.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/App_20220307095135.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093505.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093625.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093626.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093627.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093628.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093632.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093633.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093634.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093636.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093637.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093638.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093639.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093640.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093641.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093642.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093643.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093645.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093646.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093647.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093648.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093649.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093650.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093722.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093723.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093724.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093726.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093727.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093728.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093729.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093731.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093740.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093742.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093743.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093745.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093858.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093900.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093901.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093902.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093904.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093920.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093921.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093922.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093955.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093956.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307093957.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094008.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094012.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094014.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094015.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094016.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094200.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094201.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094203.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094204.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094205.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094206.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094335.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094336.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094337.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094338.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094339.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094342.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094344.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094345.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094346.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094347.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094349.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094350.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094352.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094358.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094400.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094401.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094402.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094403.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094404.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094406.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094407.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094408.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094411.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094413.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094442.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094443.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094446.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094447.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094448.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094514.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094515.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094516.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094517.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094518.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094519.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094521.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094522.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094523.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094524.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094525.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094527.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094528.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094529.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094535.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094536.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094539.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094549.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094550.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094552.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094553.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094554.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094555.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094556.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094557.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094558.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094559.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094600.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094601.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094602.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094603.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094604.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094606.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094608.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094613.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094614.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094615.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094616.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094617.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094618.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094619.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094620.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094621.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094624.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094625.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094632.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094633.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094634.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094635.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094636.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094637.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094638.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094640.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094641.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094644.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094646.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094647.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094648.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094649.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094651.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094652.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094653.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094654.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094655.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094656.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094700.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094704.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094859.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094900.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094901.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094902.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094903.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094904.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094905.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094906.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094910.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094913.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094914.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094915.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094920.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094921.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094923.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094924.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307094927.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307095225.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307095227.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/index_20220307095228.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094258.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094301.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094302.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094303.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094304.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094305.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094306.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094307.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094308.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094309.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094310.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094311.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094312.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094314.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094315.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094316.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094319.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094320.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094322.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094323.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094330.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094331.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.history/src/utils_20220307094332.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_hello-react/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/.idea/04_learn_component.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/01_组件的定义方式/01_组件的定义.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/01_组件的定义方式/02_render函数返回值.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/02_组件生命周期/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/01_组件嵌套.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/02_父传子类组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/03_父传子函数组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/04_父传子函数组件属性验证.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/05_子传父函数传递.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/03_组件通信/05_父传子类组件属性验证.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/04_组件通信案例/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/04_组件通信案例/TabControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/04_组件通信案例/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/05_React实现slot/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/05_React实现slot/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/05_React实现slot/NavBar2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/05_React实现slot/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/06_跨组件通信/01_跨组件通信props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/06_跨组件通信/02_跨组件通信context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/06_跨组件通信/03_跨组件通信context函数组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/06_跨组件通信/04_跨组件通信多个context函数组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/07_setState的使用/01_为什么使用setState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/07_setState的使用/02_setState异步更新.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/07_setState的使用/03_setState同步更新.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/07_setState的使用/04_setState数据合并.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/07_setState的使用/05_多个state的合并.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/08_React性能优化/01_keys的作用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/08_React性能优化/02_组件嵌套的render调用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/08_React性能优化/03_shouldComponentUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/08_React性能优化/04_PureComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/08_React性能优化/05_高阶组件memo .js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/09_前面知识点补充/01_setState不可变的力量.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/09_前面知识点补充/02_全局事件传递.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/01_refs使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/02_React.createRef改变子组件内数据.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/03_受控组件的基本使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/04_受控组件select使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/05_受控组件多输入.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/10_受控事件和非受控事件/06_非受控组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/01_高阶组件的定义方式.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/02_高阶组件增强props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/03_高阶组件增强props改进1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/04_高阶组件增强props改进2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/05_高阶组件的应用渲染判断鉴权.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/06_获取组件渲染时间.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/11高阶组件的使用/07_高阶组件的应用生命周期劫持.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/12组件内容补充/01_ref的转发.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/12组件内容补充/02_Portals的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/12组件内容补充/03_fragment的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/12组件内容补充/04_StrictMode的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../04_learn_component/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/.idea/05_react_style.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/01_内联样式/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/app/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/home/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/02_普通的css/profile/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/app/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/home/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/03css modules/profile/style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/04_styled-components/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/04_styled-components/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/04_styled-components/home/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05_react_style/src/04_styled-components/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign - 副本/.idea/06_learn_antdesign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/.idea/06_learn_antdesign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/craco.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/classnames的使用.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/comments/CommentInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/comments/CommentItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/comments/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/components/home/childCpns/home-recommend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06_learn_antdesign/src/components/title/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07_learn_axios/.idea/07_learn_axios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07_learn_axios/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07_learn_axios/src/service/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07_learn_axios/src/service/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/.idea/08_learn_transition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/CSSTransition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/CSSTransitionDemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/SwitchTransition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/SwitchTransitionDemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/TransitionGroup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08_learn_transition/src/transition/TransitionGroupDemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/index_base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09_learn redux/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../16_redux-thunk网络请求+redux-devtools/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../17_redux-saga网络请求/src/store/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/18_learn-middleware.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/basic_redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../18_learn-middleware/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.idea/10_react redux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/count/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/count/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/count/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/count/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/home/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/home/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/home/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/src/store/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19_react reducer拆分/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/react.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00语法补充/01JS中的类/.idea/01JS中的类.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/00语法补充.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00语法补充/01JS中的类/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00语法补充/01JS中的类/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00语法补充/01JS中的类/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/.idea/01JS中的类.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/03_hello-react.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../18_learn-middleware/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_hello-react/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/01js中类的定义.html" beforeDir="false" afterPath="$PROJECT_DIR$/01js中类的定义.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JS中的类/02js中类的继承.html" beforeDir="false" afterPath="$PROJECT_DIR$/02js中类的继承.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_learn-react-folder" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_learn-react-folder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../react-16.13.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/02_learn_scaffold" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/02_learn_scaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/03_hello_react" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/03_hello_react" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/04_learn_component" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/04_learn_component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/05_react_style" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/05_react_style" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/06_learn_antdesign" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/06_learn_antdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/07_learn_axios" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/07_learn_axios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/08_learn_transition" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/08_learn_transition" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/10_react-redux" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/10_react-redux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/11_learn-middleware/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/11_learn-middleware/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/12_redux-reducer" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/12_redux-reducer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/13_learn-router" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/13_learn-router" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/14_learn-hooks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/14_learn-hooks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/16_learn-next" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/16_learn-next" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课堂/code/hy-music-web-music" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课堂/code/hy-music-web-music" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="263NQlgWhsXW6TH2Qyj3X3Ey0sK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\前端\knowledge\react\code\01learn react\00语法补充" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\前端\knowledge\react\code\01learn react\00语法补充" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1b6ee61-cb36-4691-8aba-0083ac6ec5cf" name="默认更改列表" comment="" />
+      <created>1646648295451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646648295451</updated>
+      <workItem from="1646648296663" duration="679000" />
+      <workItem from="1646914903059" duration="1461000" />
+      <workItem from="1647079227213" duration="1019000" />
+      <workItem from="1647241513216" duration="1940000" />
+      <workItem from="1647264200530" duration="33000" />
+      <workItem from="1647314363371" duration="1922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="368" y="36" key="FileChooserDialogImpl" timestamp="1647243464919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="36" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1647243464919" />
+  </component>
+</project>

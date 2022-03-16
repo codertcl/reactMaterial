@@ -1,0 +1,18 @@
+.active{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.link-active{
+    color: hotpink;
+    font-size: 30px;
+}
+
+.about-active{
+    font-size: 15px;
+    color: aqua;
+}
+
+a{
+    margin: 0 10px;
+}
