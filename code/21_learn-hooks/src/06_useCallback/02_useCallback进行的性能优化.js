@@ -1,4 +1,4 @@
-import React, {memo, useCallback, useState} from "react";
+import React, {memo, useCallback, useMemo, useState} from "react";
 
 //不用memo 两个按钮对应子组件都会重新渲染
 //使用memo后 只有btn1会重新渲染(increment每次重新定义 props改变则导致会重新渲染)
@@ -26,11 +26,20 @@ export default function CallbackHookDemo02() {
         console.log('increment2')
         setCount(count + 1)//闭包 每次用到的count都是0 所以结果恒定是1
     }, [count])
+
+    //useMemo 返回值可以是数值 函数 对象
+    const increment3 = useMemo(() => {
+      return ()=>{
+          console.log('increment2')
+          setCount(count + 1)//闭包 每次用到的count都是0 所以结果恒定是1
+      }
+    }, [count])
     return (
         <div>
             <h2>{count}</h2>
             <HYButton title="btn1" increment={increment}/>
             <HYButton title="btn2" increment={increment2}/>
+            <HYButton title="btn3" increment={increment3}/>
             <button onClick={e => setShow(!show)}>切换</button>
         </div>
     )
