@@ -1,7 +1,5 @@
 import {CHANGE_BANNER, CHANGE_RECOMMEND} from './constants.js';
 
-
-
 const initialHomeState = {
     banner: [],
     recommend: []
