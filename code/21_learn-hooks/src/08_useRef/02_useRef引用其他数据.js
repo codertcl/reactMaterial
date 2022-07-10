@@ -3,9 +3,13 @@ import React, {useEffect, useRef, useState} from "react";
 export default function RefHookDemo02() {
     const [count, setCount] = useState(0)
     const countRef = useRef(count)
+    // dom渲染完成后执行回调函数
+    // 最开始显示两个0,点击按钮后,count变化重新渲染,countRef.current仍为0,count变化了，显示10
+    // 然后再执行回调 countRef.current为当前值10
+    //Ref对象默认在整个生命周期内数据不变
     useEffect(() => {
-        //count变化后更新current值 dom不会重新渲染
-        // 再次点击DOM渲染 count上一次的值更新
+        // count变化后更新current为当前count值,但dom不会重新渲染
+        // 再次点击+1,DOM渲染 countRef.current更新为count上一次的值更新
         countRef.current = count
     }, [count])
     return (

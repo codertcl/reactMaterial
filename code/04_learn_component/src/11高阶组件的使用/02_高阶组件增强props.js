@@ -37,8 +37,8 @@ export default class App extends PureComponent {
     render() {
         return (
             <div>
-                <EnhanceHome name='冰冰' level={99}/>
-                <EnhanceAbout name='SXY' level={99}/>
+                <EnhanceHome name='冰冰' level={99} region="美国"/>
+                <EnhanceAbout name='SXY' level={99} region="美国"/>
             </div>
         )
     }

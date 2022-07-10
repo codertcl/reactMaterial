@@ -5,6 +5,10 @@ class Cpn extends Component {
         return <h2>cpn组件</h2>;
     }
 
+    componentDidUnmount() {
+        console.log('cpn的componentDidUnmount方法')
+    }
+
     componentWillUnmount() {
         console.log('cpn的componentWillUnmount方法')
     }

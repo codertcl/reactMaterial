@@ -31,6 +31,7 @@ export default class App extends PureComponent{
 
     render() {
         return (
+            //多个组件共享的样式
             <ThemeProvider theme={{themeColor:'skyblue',fontSize:"20px"}}>
                 <h1>App</h1>
                 <Home>Home</Home>

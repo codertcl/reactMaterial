@@ -10,19 +10,6 @@ import './App.css'
 import Switch from "react-router-dom/es/Switch";
 
 export default class App extends PureComponent {
-    constructor(props) {
-        super(props);
-        this.state = {
-            links: [
-                {to: '/', title: '首页'},
-                {to: '/about', title: '关于'},
-                {to: '/profile', title: '我的'},
-            ],
-            currentIndex: 0
-        }
-    }
-
-
     render() {
         return (
             <div>
@@ -46,9 +33,6 @@ export default class App extends PureComponent {
                         <Route path="/login" component={Login}/>
                         <Route component={NoMatch}/>
                     </Switch>
-                    {/*</HashRouter>*/}
-
-
                 </BrowserRouter>
             </div>
         )

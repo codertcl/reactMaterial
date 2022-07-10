@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/4.0.0/immutable.js"
+        integrity="sha512-+lq9VvsdJOwuEqxF3OVBkJmGD9ymN1vG4VoNckDNHAbX123qfo93EbJx5W5cAdgGH/sZweInZjzdGOyyyMrIXw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/4.0.0/immutable.min.js"
+        integrity="sha512-YKSQecLkGrea3bKro680kYyxBrlTbD0coQvdrpZV5swPcuZbAJQurJHtfinPSjDTGBz2K4Cjs4INsjm5nhB2kg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const im = Immutable
+
+    //1:Map方法
+    // const info = {
+    //     name: '冰冰',
+    //     age: 32,
+    //     friend: {
+    //         name: 'yy',
+    //         age: 33
+    //     }
+    // }
+    // const infoIM = im.Map(info)
+    // const obj = infoIM
+    // const infoIM2 = infoIM.set('name', '111')
+    // console.log(obj.get('name'))//冰冰
+    // console.log(infoIM2.get('name'))//1
+
+
+    // //2:List的使用
+    // const name = ['a', 'b', 'c']
+    // let nameIM = im.List(name)
+    // let arr = nameIM.set(0, '冰冰')
+    // console.log(arr.get(0))//'冰冰'
+    // console.log(nameIM.get(0))//'a'
+
+    //3:
+    const obj = {
+        name: '冰冰',
+        age: 32,
+        friend: {
+            name: 'yy',
+            age: 33
+        }
+    }
+
+    // const infoIM=im.Map(obj)
+    // console.log(infoIM.get('friend')) //仍然是普通对象 {name: 'yy', age: 33}
+    const infoIM = im.fromJS(obj)
+    console.log(infoIM.get('friend'))
+</script>
+</body>
+</html>

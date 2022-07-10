@@ -16,6 +16,7 @@ export default class CommentInput extends PureComponent {
     render() {
         return (
             <div>
+                {/*Input.TextArea 代替 type="textarea"*/}
                 <Input.TextArea rows={4}
                                 value={this.state.content}
                                 onChange={e => this.handleChange(e)}/>
@@ -37,9 +38,7 @@ export default class CommentInput extends PureComponent {
             nickname: "coderwhy",
             datetime: moment(),
             content: this.state.content,
-            comments: [
-
-            ]
+            comments: []
         }
 
         this.props.submitComment(commentInfo);

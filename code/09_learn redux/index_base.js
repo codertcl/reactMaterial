@@ -1,4 +1,5 @@
-const redux = require('redux')
+// const redux = require('redux')
+import redux from 'redux'
 
 const initialState = {
     count: 0,
@@ -22,7 +23,8 @@ function reducer(state = initialState, action) {
 
 const store = redux.createStore(reducer)
 
-//订阅Store的变化
+
+//订阅Store的变化 先订阅后派发事件
 store.subscribe(() => {
     console.log(store.getState().count)
 })
@@ -32,7 +34,8 @@ const action2 = {type: "DECREMENT"}
 const action3 = {type: "ADD_NUMBER", num: 2}
 const action4 = {type: "SUB_NUMBER", num: 2}
 
-store.dispatch(action1)
-store.dispatch(action2)
-store.dispatch(action3)
-store.dispatch(action4)
+//dispatch派发action后,就被reducer函数进行处理,操作state,并返回新的state
+store.dispatch(action1)//1
+store.dispatch(action2)//0
+store.dispatch(action3)//2
+store.dispatch(action4)//0

@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, {PureComponent} from 'react';
 
 import CommentInput from './CommentInput';
 import CommentItem from './CommentItem';
@@ -22,7 +22,8 @@ export default class App extends PureComponent {
                                             removeItem={e => this.removeComment(index)}/>
                     })
                 }
-                <CommentInput submitComment={this.submitComment.bind(this)}/>
+                {/*<CommentInput submitComment={this.submitComment.bind(this)}/>*/}
+                <CommentInput submitComment={info => this.submitComment(info)}/>
             </div>
         )
     }

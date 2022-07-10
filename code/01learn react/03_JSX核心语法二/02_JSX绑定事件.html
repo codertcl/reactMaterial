@@ -21,14 +21,16 @@
                 message: '冰冰',
                 count: 0
             }
-            // 避免多次重复绑定
+            // 该函数多次调用时通过该方式可以避免多次重复绑定
             this.btnClick = this.btnClick.bind(this)
         }
 
         render() {
             return (
                 <div>
-                    {/*1:bind绑定this*/}
+                    {/*默认情况下,React执行点击事件对应的回调函数
+                    会默认通过.call(undefined)绑定了this 所以需要可以手动通过bind绑定this*/}
+                    {/*1:显式绑定this bind绑定this*/}
                     <button onClick={this.btnClick.bind(this)}>按钮1</button>
                     <button onClick={this.btnClick}>按钮2</button>
 
@@ -38,12 +40,14 @@
                         缺点:不能传递参数 */}
                     <button onClick={this.increment}>++</button>
 
-                    {/*3:事件定义时传入箭头函数 
+                    {/*3:事件定义时传入箭头函数
                       推荐 可以传递参数*/}
-                    <button onClick={()=> {
+                    <button onClick={() => {
+                        //在render函数内找到this
                         this.decrement(this.state.count)//便于传递参数
                         //调用decrement时,函数内部隐式绑定该this
-                    }}>--</button>
+                    }}>--
+                    </button>
                 </div>
             )
         }
@@ -52,14 +56,15 @@
             console.log(this.state.message);
         }
 
+        ////1手动显式绑定this
         // increment(){
         //     this.setState({
         //         count:this.state.count+1
         //     })
         // }
 
-        //2:使用 ES6 class fields 语法
-        // 箭头函数不绑定this 用到this时向上层作用域寻找this 找到正确this
+        //2:使用 ES6 class fields 类的成员变量 语法
+        // 箭头函数不绑定this 用到this时向上层作用域(class作用内)寻找this 找到正确this
         increment = () => {
             this.setState({
                 count: this.state.count + 1
@@ -69,7 +74,8 @@
         decrement(arg) {
             console.log(arg);
             this.setState({
-                count: this.state.count - 1
+                // count: this.state.count - 1
+                count: arg - 1
             })
         }
     }

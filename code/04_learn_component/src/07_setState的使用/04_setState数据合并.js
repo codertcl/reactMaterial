@@ -19,9 +19,9 @@ export default class App extends Component {
         )
     }
 
-    ////数据合并 Object.assign(target, ...sources)
+    ////数据合并 Object.assign(target, ...sources) 进行state的拷贝
     // 如果目标对象中的属性具有相同的键，则属性将被源对象中的属性覆盖。
-    // 后面的源对象的属性将类似地覆盖前面的源对象的属性。
+    // 后面的源对象的属性将类似地覆盖前面的源对象的属性
     changeText() {
         //name属性仍会存在
         this.setState({

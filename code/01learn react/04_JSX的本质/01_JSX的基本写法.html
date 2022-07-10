@@ -9,12 +9,14 @@
 </head>
 
 <body>
-    <div id="app"></div>
-    <script src="../react/react.development.js"></script>
-    <script src="../react/react-dom.development.js"></script>
-    <script src="../react/babel.min.js"></script>
-    <script type="text/babel">
-        const message1 = <h2>hello react</h2>
+<div id="app"></div>
+<script src="../react/react.development.js"></script>
+<script src="../react/react-dom.development.js"></script>
+<script src="../react/babel.min.js"></script>
+<script type="text/babel">
+    // 所有的jsx最终都会被转换成React.createElement的函数调用
+    //对于message1,babel将jsx转换为React.createElement
+    const message1 = <h2>hello react</h2>
     const message2 = React.createElement("h2", null, 'hello React2')
     // ReactDOM.render(message1,document.getElementById('app'))
     ReactDOM.render(message2, document.getElementById('app'))

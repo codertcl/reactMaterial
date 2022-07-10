@@ -26,7 +26,9 @@ export default class App extends Component {
     }
 
     increment() {
-        // //1.setState合并时只会更新一次
+        // // //1.setState合并时只会更新一次
+        // // return Object.assign({}, prevState, partialState);
+        // // 中的prevState均为{count:this.state.count}即累加前的值
         // this.setState({
         //     count: this.state.count + 1
         // }, () => {
@@ -62,6 +64,5 @@ export default class App extends Component {
                 count: prevState.count + 1
             }
         })
-
     }
 }

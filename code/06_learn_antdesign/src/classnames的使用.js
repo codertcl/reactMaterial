@@ -1,7 +1,7 @@
-import React, {PureComponent} from "react";
-import classNames from "classnames";
-
-//// 1:classnames的使用
+// import React, {PureComponent} from "react";
+// import classNames from "classnames";
+//
+// // 1:classnames的使用
 // export default class Classnames extends PureComponent {
 //     constructor(props) {
 //         super(props);
@@ -14,7 +14,7 @@ import classNames from "classnames";
 //     render() {
 //         const {isActive, isBar} = this.state
 //         //将值转换为布尔值，为真则转换为字符串添加到元素上
-//         const errorClass = 'error', warnClass = 'warn', zero = 1, one = 1, ten = 10
+//         const errorClass = 'error', warnClass = 'warn', zero = 0, one = 1, ten = 10
 //         return (
 //             <div>
 //                 <h3 className={"foo bar active title"}>标题1</h3>
@@ -33,6 +33,8 @@ import classNames from "classnames";
 //         )
 //     }
 // }
+
+import React, {PureComponent} from "react";
 import { Button, Space } from 'antd';
 import { PoweroffOutlined } from '@ant-design/icons';
 import HYHomeRecommend from "components/home/childCpns/home-recommend";

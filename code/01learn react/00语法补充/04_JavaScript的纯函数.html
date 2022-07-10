@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  
+
   <script>
     // 是否是一个纯函数: 是纯函数
     function sum(num1, num2) {
@@ -19,7 +19,7 @@
     sum(20, 30);
     sum(20, 30);
 
-    // add函数是否是一个纯函数: 不是一个纯函数
+    // add不是一个纯函数,使用了外部的变量foo
     let foo = 10;
     function add(num) {
       return foo + num;
@@ -48,7 +48,7 @@
 
     baz.count = 20;
 
-    // printInfo是一个纯函数吗? 不是一个纯函数
+    // printInfo不是一个纯函数 产生了副作用
     function printInfo(info) {
       info.name = "why";
       console.log(info.name, info.age);
@@ -60,11 +60,11 @@
     }
 
     printInfo(info);
-    
+
     console.log(obj);
 
 
-    const info = {
+    let info = {
       name: "why",
       age: 18
     }

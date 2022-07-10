@@ -9,7 +9,13 @@ export default function EffectHookSubscribe() {
         return () => {
             console.log('取消订阅')
         }
-    },[])//添加数组后避免更新dom后重新执行useEffect中的函数
+    },[])
+    // 添加空数组即useEffect不再因为数据改变而造成的DOM渲染而重复执行
+    // 在组件生命周期内只会调用一次，相当于componentDidMount和componentWillUnmount
+    // 避免更新dom后重新执行useEffect中的函数
+
+    // 不写第二个参数，组件每次render之后useEffect都会调用
+    // 相当于componentDidMount和componentDidUpdate
     return (
         <div>
             EffectHookSubscribe

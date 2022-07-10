@@ -8,7 +8,6 @@ const MemoHeader = memo(function Header() {
 })
 
 
-
 function Footer() {
     console.log('Footer的render函数被调用')
     return <h2>footer</h2>

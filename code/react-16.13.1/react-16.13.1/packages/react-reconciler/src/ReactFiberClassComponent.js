@@ -288,7 +288,6 @@ function checkShouldComponentUpdate(
         );
       }
     }
-
     return shouldUpdate;
   }
 

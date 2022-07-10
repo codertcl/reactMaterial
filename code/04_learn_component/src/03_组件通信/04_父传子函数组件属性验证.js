@@ -2,8 +2,7 @@ import React, {Component} from "react";
 import PropTypes from 'prop-types'
 
 function ChildCpn(props) {
-    const {name, age} = props
-    const {names} = props
+    const {name, age,names} = props
     return (
         <div>
             <h2>{name}</h2>

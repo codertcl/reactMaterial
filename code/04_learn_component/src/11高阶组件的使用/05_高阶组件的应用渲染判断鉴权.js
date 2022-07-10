@@ -1,11 +1,11 @@
 import React, {PureComponent} from "react";
 
-function withAuth(WrapperComponent) {
+function withAuth(WrapperComponent1, WrapperComponent2) {
     const AuthCpn = props => {
         if (props.isLogin)
-            return <WrapperComponent {...props}/>
+            return <WrapperComponent1 {...props}/>
         else {
-            return <LoginPage/>
+            return <WrapperComponent2/>
         }
     }
     return AuthCpn
@@ -30,7 +30,7 @@ class LoginPage extends PureComponent {
     }
 }
 
-const AuthCartPage = withAuth(CartPage)
+const AuthCartPage = withAuth(CartPage, LoginPage)
 
 export default class App extends PureComponent {
     render() {

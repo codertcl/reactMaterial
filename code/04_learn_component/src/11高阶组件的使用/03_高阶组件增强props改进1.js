@@ -4,7 +4,7 @@ import React, { PureComponent, createContext } from 'react';
 const UserContext = createContext({
     nickname: "默认",
     level: -1,
-    区域: "中国"
+    region: "中国"
 });
 class Home extends PureComponent {
     render() {
@@ -39,7 +39,7 @@ class App extends PureComponent {
         return (
             <div>
                 App
-                <UserContext.Provider value={{nickname: "why", level: 90, region: "中国"}}>
+                <UserContext.Provider value={{nickname: "why", level: 90, region: "美国"}}>
                     <Home/>
                     <About/>
                 </UserContext.Provider>

@@ -1,16 +1,18 @@
 import React, {Component} from "react";
 
 class ChildCpn extends Component {
-    // 如果子类没有定义构造函数,则默认调用父类的构造函数
-    // //props：父组件传递的数据
-    constructor(props) {
-        super();
-        console.log(this.props)//undefined
-        // this.props = props //Component类中执行了这一步
-    }
+    // // 如果子类没有定义构造函数,则默认调用父类的构造函数
+    // // //props：父组件传递的数据
+    // constructor(props) {
+    //     super();
+    //     // console.log(this.props)//undefined
+    //     //React内部的Component类中执行了这一步
+    //     //下面的代码可以不写
+    //     this.props = props
+    // }
 
     componentDidMount() {
-        console.log(this.props,'componentDidMount')// {name: 'taylor', age: '36'} 'componentDidMount'
+        console.log(this.props, 'componentDidMount')// {name: 'taylor', age: '36'} 'componentDidMount'
     }
 
     render() {
@@ -26,10 +28,10 @@ class ChildCpn extends Component {
 
 export default class App extends Component {
     render() {
-        console.log(this.props,'render')//Object[[Prototype]]: Object 'render'
+        console.log(this.props, 'render')//Object[[Prototype]]: Object 'render'
         return (
             <div>
-                {/*<ChildCpn name='sxy' age="22"/>*/}
+                <ChildCpn name='sxy' age="22"/>
                 <ChildCpn name='taylor' age="36"/>
             </div>
         )

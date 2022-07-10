@@ -39,9 +39,10 @@ class App extends PureComponent {
 
     jumpProduct() {
         // 通过路由渲染的组件会添加history属性 可以使用该方法进行跳转
-        //App组件通过JSX创建并渲染
+        // App组件通过JSX创建并渲染没有传递history、location、match等信息
         this.props.history.push('/product')
     }
 }
+//App组件通过JSX来创建,没有传递history、location、match等信息
 //通过高阶组件添加history信息
 export default withRouter(App)

@@ -5,9 +5,8 @@ class App extends PureComponent {
     render() {
         return (
             <div>
-                <About/>
-                <hr/>
                 <Home/>
+                <About/>
             </div>
         )
     }

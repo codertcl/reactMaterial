@@ -9,7 +9,7 @@ class Home extends PureComponent {
 //内置高阶组件forwardRef 函数第二个参数ref
 const Profile=forwardRef(function (props,ref) {
     return (
-        <p ref={ref}>Profile</p>
+        <p ref={ref}>Profile:{props.name}</p>
     )
 })
 
@@ -29,7 +29,7 @@ export default class App extends PureComponent {
             <div>
                 <h1 ref={this.titleRef}>hello</h1>
                 <Home ref={this.homeRef}/>
-                <Profile ref={this.profileRef}/>
+                <Profile name="冰冰" ref={this.profileRef}/>
                 <button onClick={e => this.printRef()}>打印ref</button>
             </div>
         )

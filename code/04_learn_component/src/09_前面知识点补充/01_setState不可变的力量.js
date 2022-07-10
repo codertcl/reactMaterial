@@ -37,7 +37,7 @@ export default class App extends PureComponent {
     }
 
     shouldPureComponentUpdate(nextProps, nextState, nextContext) {
-        // console.log(nextState.friends, this.state.friends)
+        console.log(nextState.friends, this.state.friends)
         if (nextState.friends !== this.state.friends)
             return true
         return false
@@ -57,10 +57,11 @@ export default class App extends PureComponent {
             age: 31
         }
 
-        ////1:该方式更新了当前state中的friends数组
+        // //1:该方式更新了当前state中的friends数组
         // this.state.friends.push(newData)
-        //// 下面的shouldPureComponentUpdate()中第二个参数newState也更新为
         // this.setState({
+        //     //未改变friends的引用地址,在shouldPureComponentUpdate函数中
+        //     //nextState.friends和this.state.friends指向的内存地址一致,所以就不会重新渲染
         //     friends: this.state.friends
         // })
 

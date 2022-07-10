@@ -1,12 +1,11 @@
-import React,{PureComponent} from "react";
+import React, {PureComponent} from "react";
 
-export default class Detail extends PureComponent{
+export default class Detail extends PureComponent {
     render() {
-        //{isExact: true,params: {id: 'abc'},path: "/detail/:id",url: "/detail/abc"}
         console.log(this.props)
-            return (
+        return (
             <div>
-                <h1>{this.props.match.params.id}</h1>
+                <h1>{this.props.location.pathname}</h1>
             </div>
         )
     }

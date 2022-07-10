@@ -18,14 +18,20 @@
         console.log(args);
     }
 
+    //多个参数以,分隔开
     test("aaa", "ccc");
 
     test`aaaa`;
+    // 标签模板字符串调用函数
+    // 三个参数 [['my name is ', ', age is ', ''],"why",18]
     test`my name is ${name}, age is ${age}`;
 
+    //单个参数
+    // ['\n      font-size: 15px;\n      color: red;\n    ']
     test`
       font-size: 15px;
-      color: red;
+      // color: red;
+      color: ${props=>props.color};
     `
 </script>
 </body>

@@ -10,6 +10,8 @@ export default function MemoHookDemo02() {
     const [show, setShow] = useState(true);
 
     // const info = { name: "why", age: 18 };
+    // 不用useMemo在修改show时,父子组件都会重新渲染,每次都新创建了info对象,每次都不一致,所以子组件重新渲染
+    // 使用了则子组件不会重新渲染
     const info = useMemo(() => {
         return { name: "why", age: 18 };
     }, []);

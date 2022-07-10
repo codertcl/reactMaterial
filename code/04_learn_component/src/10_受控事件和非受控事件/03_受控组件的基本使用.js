@@ -1,9 +1,9 @@
 import React, {PureComponent} from "react";
 
-
 export default class App extends PureComponent {
     constructor(props) {
         super(props);
+        //表单数据保存在state中
         this.state = {
             username: ''
         }
@@ -29,7 +29,7 @@ export default class App extends PureComponent {
     }
 
     handleSubmit(e) {
-        e.preventDefault()//取消默认事件
+        e.preventDefault()//取消表单默认的提交事件
         //保存数据到state中
         console.log(this.state.username)
     }

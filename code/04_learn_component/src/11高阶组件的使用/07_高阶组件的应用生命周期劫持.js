@@ -15,7 +15,7 @@ function withRenderTime(WrappedComponent) {
         }
 
         render() {
-            return <WrappedComponent {...this.props} />
+            return <WrappedComponent {...this.props}/>
         }
     }
 }
@@ -24,7 +24,7 @@ class Home extends PureComponent {
     render() {
         return (
             <div>
-                <h2>Home</h2>
+                <h2>{this.props.name}</h2>
             </div>
         )
     }
@@ -34,7 +34,7 @@ class About extends PureComponent {
     render() {
         return (
             <div>
-                <h2>About</h2>
+                <h2>{this.props.name}</h2>
             </div>
         )
     }
@@ -47,8 +47,8 @@ export default class App extends PureComponent {
     render() {
         return (
             <div>
-                <TimeHome/>
-                <TimeAbout/>
+                <TimeHome name="home"/>
+                <TimeAbout name="about"/>
             </div>
         )
     }

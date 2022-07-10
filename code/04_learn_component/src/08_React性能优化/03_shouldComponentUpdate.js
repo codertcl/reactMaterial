@@ -21,7 +21,7 @@ export default class App extends Component {
         )
     }
 
-    //类组件特有 return false可以阻止render函数的执行
+    //类组件特有 不会阻止第一次的渲染 return false可以阻止render函数的执行
     shouldComponentUpdate(nextProps, nextState, nextContext) {
         //count改变时 可以调用render
         if (nextState.count !== this.state.count)

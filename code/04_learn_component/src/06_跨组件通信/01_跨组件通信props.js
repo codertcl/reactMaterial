@@ -23,7 +23,6 @@ function Profile(props) {
             </ul>
         </div>
     )
-
 }
 
 export default class App extends Component {

@@ -9,6 +9,7 @@ export default class App extends Component {
     }
 
     render() {
+        console.log('渲染')
         return (
             <div>
                 <h1>{this.state.count}</h1>
@@ -20,8 +21,8 @@ export default class App extends Component {
     increment() {
         this.state.count +=1 //修改了count 但react不知道数据更新了 不会更新页面
         console.log(this.state.count)
-        this.setState({
-            count: this.state.count + 1
-        })
+        // this.setState({
+        //     count: this.state.count + 1
+        // })
     }
 }
