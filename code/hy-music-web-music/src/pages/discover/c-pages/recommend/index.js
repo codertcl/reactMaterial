@@ -29,29 +29,38 @@
 
 
 import React, {memo, useEffect} from "react";
-import {Map} from 'immutable'
-import {useDispatch, useSelector} from "react-redux";
-import {getTopBannerAction} from "./store/actionCreators";
+import TLTopBanner from './c-cpns/top-banner/index'
+import TLHotRecommend from './c-cpns/hot-recommend/index'
+import TLNewAlbum from './c-cpns/new-album/index'
+import TLUserLogin from './c-cpns/user-login/index'
+import TLHotAnchor from './c-cpns/hot-anchor/index'
+import TLSettleSinger from './c-cpns/settle-singer/index'
+import TLRecommendRanking from './c-cpns/recommend-ranking/index'
+import {
+    RecommendWrapper,
+    Content,
+    RecommendLeft,
+    RecommendRight
+} from "./style";
 
 //使用hooks进行网络请求
-function TlRecommend(props) {
-    //获取请求结果数据 useSelector返回对象
-    const {topBanners} = useSelector(state => ({
-        topBanners: state.recommend.get("topBanners")
-        // topBanners: state.recommend.topBanners
-    }))
-
-    //useDispatch作用：共享状态，返回Redux的store中对dispatch的引用
-    //可执行redux中的方法
-    const dispatch = useDispatch()
-    useEffect(() => {
-        dispatch(getTopBannerAction())
-    }, [dispatch])
+export default memo(function TlRecommend(props) {
     return (
-        <div>
-            <h2>Recommend</h2>
-        </div>
+        <RecommendWrapper>
+            <TLTopBanner/>
+            <Content className="wrap-v2">
+                <RecommendLeft>
+                    <TLHotRecommend/>
+                    <TLNewAlbum/>
+                    <TLRecommendRanking/>
+                </RecommendLeft>
+                <RecommendRight>
+                    <TLUserLogin/>
+                    <TLSettleSinger/>
+                    <TLHotAnchor/>
+                </RecommendRight>
+            </Content>
+        </RecommendWrapper>
     )
-}
+})
 
-export default memo(TlRecommend)
