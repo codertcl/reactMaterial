@@ -5,7 +5,7 @@ export function connect(mapStateToProps, mapDispatchToProps) {
     //使用高阶函数
     return function enhanceHOC(WrappedComponent) {
         class EnhanceComponent extends PureComponent {
-            constructor(props,context) {
+            constructor(props, context) {
                 super(props);
                 this.state = {
                     storeSate: mapStateToProps(context.getState())
@@ -25,9 +25,10 @@ export function connect(mapStateToProps, mapDispatchToProps) {
             }
 
             render() {
-                return <WrappedComponent {...this.props}
-                                         {...mapStateToProps(this.context.getState())}
-                                         {...mapDispatchToProps(this.context.dispatch)}
+                return <WrappedComponent
+                    {...this.props}
+                    {...mapStateToProps(this.context.getState())}
+                    {...mapDispatchToProps(this.context.dispatch)}
                 />;
             }
         }
