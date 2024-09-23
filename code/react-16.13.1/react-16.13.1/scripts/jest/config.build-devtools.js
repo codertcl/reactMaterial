@@ -50,7 +50,7 @@ module.exports = Object.assign({}, baseConfig, {
   testPathIgnorePatterns: ['/node_modules/', '-test.internal.js$'],
   // Exclude the build output from transforms
   transformIgnorePatterns: ['/node_modules/', '<rootDir>/build/'],
-  testRegex: 'packages/react-devtools-shared/src/__tests__/[^]+.test.js$',
+  testRegex: 'packages/react-devtools-shared/src/__tests__/[^]+.4、非递归快速排序.js$',
   snapshotSerializers: [
     require.resolve(
       '../../packages/react-devtools-shared/src/__tests__/inspectedElementSerializer.js'
